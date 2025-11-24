@@ -74,10 +74,10 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-    labels[0] : ["texts" ] : ["중국식 냉면은 맛있어"], ["https://www.unileverfoodsolutions.co.kr/dam/global-ufs/mcos/south-korea/calcmenu/recipes/kr-recipes/chinese/header/%EC%A4%91%EA%B5%AD%EB%83%89%EB%A9%B4-chinese-cold-noodles-header-1260x709px.jpg"]},
-    labels[1] : ["texts" ] : ["자장면은 맛있어"], ["https://minio.nculture.org/amsweb-opt/multimedia_assets/5/13787/20519/c/13787-medium-size.jpg"]},
-    labels[2] : ["texts" ] : ["짬뽕은 맛있어"], ["https://onlmenu.com/data/file/sb/3667802933_mzNcx5nk_365bb2940ef6e7a5212b2e39645860cb0c271ddb.JPG"]},
-    labels[3] : ["texts" ] : ["탕수육은 맛있어"], ["https://img.siksinhot.com/article/1711422146045324.jpeg"]},
+    labels[0] : {"texts"  : ["중국식 냉면은 맛있어"], ["https://www.unileverfoodsolutions.co.kr/dam/global-ufs/mcos/south-korea/calcmenu/recipes/kr-recipes/chinese/header/%EC%A4%91%EA%B5%AD%EB%83%89%EB%A9%B4-chinese-cold-noodles-header-1260x709px.jpg"]},
+    labels[1] : {"texts"  : ["자장면은 맛있어"], ["https://minio.nculture.org/amsweb-opt/multimedia_assets/5/13787/20519/c/13787-medium-size.jpg"]},
+    labels[2] : {"texts"  : ["짬뽕은 맛있어"], ["https://onlmenu.com/data/file/sb/3667802933_mzNcx5nk_365bb2940ef6e7a5212b2e39645860cb0c271ddb.JPG"]},
+    labels[3] : {"texts"  : ["탕수육은 맛있어"], ["https://img.siksinhot.com/article/1711422146045324.jpeg"]},
 }
 
 # ======================
